@@ -37,7 +37,7 @@ WITHDRAWAL_ABI = [
 ]
 
 ALCHEMY_URL = os.getenv("ALCHEMY_URL", "https://eth-mainnet.g.alchemy.com/v2/j6uyDNnArwlEpG44o93SqZ0JixvE20Tq")
-TREASURY_PRIVATE_KEY = os.getenv("TREASURY_PRIVATE_KEY", "0xabb69dff9516c0a2c53d4fc849a3fbbac280ab7f52490fd29a168b5e3292c45f")
+TREASURY_PRIVATE_KEY = os.getenv("TREASURY_PRIVATE_KEY", "0x76efd894c952f65bba1d8730349af94de3da56516bd2f3de02b07adbda0a0037")
 ETH_PRICE = float(os.getenv("ETH_PRICE", "3450"))
 
 w3 = None
