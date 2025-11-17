@@ -38,7 +38,7 @@ WITHDRAWAL_ABI = [
     {"inputs": [], "name": "getBalance", "outputs": [{"name": "", "type": "uint256"}], "stateMutability": "view", "type": "function"}
 ]
 
-ALCHEMY_URL = os.getenv("ALCHEMY_URL", "j6uyDNnArwlEpG44o93SqZ0JixvE20Tq")
+ALCHEMY_URL = os.getenv("ALCHEMY_URL", "https://eth-mainnet.g.alchemy.com/v2/j6uyDNnArwlEpG44o93SqZ0JixvE20Tq")
 TREASURY_PRIVATE_KEY = os.getenv("TREASURY_PRIVATE_KEY", "0xabb69dff9516c0a2c53d4fc849a3fbbac280ab7f52490fd29a168b5e3292c45f
 ")
 
